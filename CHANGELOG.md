@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Fixed
+- Fixed a bug where embedded assets couldn't be saved from an Assets field restricted to a dynamic subfolder that didn't exist yet (#312)
+- Fixed a bug where, with multiple Assets fields on a page, embedded assets could be saved to the wrong field's folder and weren't selected in the field they were added from
+
 ## 5.4.9 - 2026-09-05
 
 ### Fixed
